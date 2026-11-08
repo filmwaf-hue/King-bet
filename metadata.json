@@ -1,0 +1,6 @@
+{
+  "name": "SMART BET HUB",
+  "description": "Professional football betting tips, match probability analytics, and AI-powered match analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

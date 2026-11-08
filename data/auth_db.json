@@ -1,0 +1,42 @@
+{
+  "users": {
+    "usr-admin-root": {
+      "id": "usr-admin-root",
+      "email": "filmwaf@gmail.com",
+      "name": "System Administrator (filmwaf)",
+      "role": "admin",
+      "isVip": true,
+      "vipExpiry": "Permanent Lifetime Access",
+      "passwordHash": "a620fc3a82903b7708accb8b1b0c20ba8b768a6d820dac6d34037ccc9f0726e8467077bf91b343efe30148374252ac31455f02e65589b64366f1a3cd10d552e1",
+      "salt": "2e04c621a2ae512e8c0bfb08e6800ab1",
+      "createdAt": "2026-11-08T16:38:27.265Z",
+      "lastLogin": "2026-11-08T16:38:51.171Z"
+    },
+    "usr-06a7c9a762c2c490": {
+      "id": "usr-06a7c9a762c2c490",
+      "email": "standarduser@gmail.com",
+      "name": "Standard Bettor",
+      "role": "free",
+      "isVip": false,
+      "passwordHash": "c6d3aa44ceb0f5cf8c73dcb754c0d658d1130b8a7da59c6eeb766be130f3c5f90667389cefaa50adff0afb9106300686b251fc8d8af38770690f14a58dee9b5c",
+      "salt": "c32f82a2181de881f4998a45b66c0770",
+      "createdAt": "2026-11-08T16:38:43.655Z"
+    }
+  },
+  "sessions": {
+    "sbh_08a8352d70a8607d942b640f8b2b7f45697995686f0075311441b9a12b9bd1b9": {
+      "token": "sbh_08a8352d70a8607d942b640f8b2b7f45697995686f0075311441b9a12b9bd1b9",
+      "userId": "usr-06a7c9a762c2c490",
+      "email": "standarduser@gmail.com",
+      "role": "free",
+      "expiresAt": 1796747923656
+    },
+    "sbh_49ab787ed3318fae6475dea7d6a499044793c169585b6941e6f59852d953b2a4": {
+      "token": "sbh_49ab787ed3318fae6475dea7d6a499044793c169585b6941e6f59852d953b2a4",
+      "userId": "usr-admin-root",
+      "email": "filmwaf@gmail.com",
+      "role": "admin",
+      "expiresAt": 1796747931171
+    }
+  }
+}
